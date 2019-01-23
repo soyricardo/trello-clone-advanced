@@ -3,5 +3,10 @@
   <!-- <input type="text" placeholder="Centro del doc" (keyup.enter)="addList($event)" /> -->
   <img class="logo" src="../../assets/angular_consola_R.png" alt="">
   <app-extra-info [user]="user"></app-extra-info>
+  <input class="bye"
+  type="button" 
+  value="Disconnect?" 
+  (click)="disconnected()"
+  onclick="alert('Bye Bye!')">
   <!-- <input type="text" placeholder="Más info!" (keyup.enter)="addList($event)" /> -->
 </header>

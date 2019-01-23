@@ -26,6 +26,10 @@ export class AddNewListComponent {
     }
   }
 
+  disconnected(){
+    this.dataService.byeBye();
+  }
+
   
 
  

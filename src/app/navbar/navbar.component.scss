@@ -1,0 +1,24 @@
+nav {
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+    // background: black;
+    background-image: url("/assets/bg_space.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-position: center;
+    background-position:50% 50%;
+    a {
+      color: white;
+      margin: 1em;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .active {
+      border-bottom: dotted 2px black;
+      border-top: dotted 2px black;
+      // padding-top: 2px;
+    }
+  }
+  

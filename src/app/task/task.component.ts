@@ -11,15 +11,14 @@ export class TaskComponent {
   @Input() task: Task;
   editing = false;
   newTaskText = '';
-
   constructor(private dataService: DataManagerService) {}
-  deleteTask(){
+  deleteTask() {
     this.dataService.deleteTask(this.task);
   }
   editStart() {
     this.editing = true;
   }
-  editTaskText () {
+  editTaskText() {
     this.task.text = this.newTaskText;
     this.dataService.editTask(this.task);
     this.editing = false;
@@ -27,5 +26,4 @@ export class TaskComponent {
   cancelEdit() {
     this.editing = false;
   }
-  
 }

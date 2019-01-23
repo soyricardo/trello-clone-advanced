@@ -1,25 +1,18 @@
 .task {
-    background: white;
-    border-radius: 0.3em;
-    padding: 0.3em;
-    margin: 0.3em 0;
-}
-.controls {
+      background: white;
+      border-radius: 0.3em;
+      padding: 0.3em;
+      margin: 0.3em 0;
+    }
+    
+    .controls {
       opacity: 0;
       transition: opacity 400ms;
-}
-      
-    
-.task:hover .controls {
+    }
+    .task:hover .controls {
       opacity: 1;
-}
-
-i {
+    }
+    i {
       cursor: pointer;
-  
-}
-
-  
-
- 
-  
+    }
+    
