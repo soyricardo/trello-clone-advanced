@@ -26,4 +26,9 @@ export class TaskComponent {
   cancelEdit() {
     this.editing = false;
   }
+
+  taskIsDone() {
+  this.dataService.markTaskAsCompleted(this.task);
+  
+  }
 }

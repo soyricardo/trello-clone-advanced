@@ -16,3 +16,15 @@
       cursor: pointer;
     }
     
+    input{
+      all:unset;
+      
+  }
+
+    .tareaCompletada {
+      opacity: 0.5;
+      text-decoration: line-through;
+      transition: all 0.5s;
+      background: greenyellow;
+
+    }

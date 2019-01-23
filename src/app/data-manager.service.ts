@@ -116,6 +116,11 @@ export class DataManagerService {
     });
   }
 
+  markTaskAsCompleted(task:Task){
+    task.completed = !task.completed;  
+  }
+
+  //  Log Off Method
   byeBye(){
     this.api.byeBye();
   }

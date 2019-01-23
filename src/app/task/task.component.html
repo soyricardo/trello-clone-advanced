@@ -10,7 +10,14 @@
     (blur)="cancelEdit()">
   </h4>
 
-<div class="controls">
-  <i class="material-icons" (click)="deleteTask()">delete</i></div>
-  <i (click)="editStart()" class="material-icons">edit</i>
+  <div class="controls">
+    <i class="material-icons" (click)="deleteTask()">delete</i>
+    <i (click)="editStart()" class="material-icons">edit</i>
+    <input class="tareaCompletada" type="checkbox" 
+    name="tareaCompletada" 
+    [checked]="task.completed" 
+    (change)="taskIsDone()">
+    <i (click)="taskIsDone()" class="material-icons">check_circle_outline</i>
+  </div>  
+
 </div>
