@@ -2,13 +2,13 @@ nav {
     padding: 1em;
     display: flex;
     justify-content: center;
-    // background: black;
-    background-image: url("/assets/bg_space.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed; 
-    background-position: center;
-    background-position:50% 50%;
+    background: linear-gradient(to right, #001f3f, #540057);
+    // background-image: url("/assets/bg_space.png");
+    // background-size: cover;
+    // background-repeat: no-repeat;
+    // background-attachment: fixed; 
+    // background-position: center;
+    // background-position:50% 50%;
     a {
       color: white;
       margin: 1em;
